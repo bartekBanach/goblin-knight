@@ -1,38 +1,74 @@
+:root {
+  --white: #FFF1E8;
+  --black: #000000;
+  --gray: #5F574F;
+  --lightgray: #C2C3C7;
+  --green: #008751;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: var(--white);
+}
+
+
 .App {
+  background-color: var(--black); 
+  padding: 1rem 0;
+}
+
+.container {
+  width: 70%;
+  background-color: #83769C;
+  margin: 0 auto;
+  border: 10px solid var(--white);
+}
+
+.logo {
   text-align: center;
+  font-family: 'PixeledEnglish';
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 10px solid var(--white);;
+  color: var(--white);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo h1 {
+  font-family: 'Chomsky';
+  font-size: 5em;
+  margin-bottom: 0.2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo h2 {
+  font-family: 'Pico';
+  color: var(--lightgray);
+  margin-bottom: 0.2rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.game-container {
+  width: 70%;
+  margin: 3rem auto;
 }
 
-.App-link {
-  color: #61dafb;
+.game {
+  margin: 0 auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.controls {
+  font-family: "Pico";
+  border-top: 10px solid var(--white);
+  padding: 1.5rem;
+
 }
+
+.controls h2{
+  margin-bottom: 0.5rem;
+}
+
+.controls p{
+  line-height: 2.5em;
+}
+
+
