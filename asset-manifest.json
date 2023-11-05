@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/goblin-knight/static/css/main.ba1e5b91.css",
+    "main.js": "/goblin-knight/static/js/main.997a3115.js",
+    "static/media/Chomsky.otf": "/goblin-knight/static/media/Chomsky.7decf1d92b05ba9d5912.otf",
+    "static/media/pico-8.ttf": "/goblin-knight/static/media/pico-8.add65b67998432b79b2d.ttf",
+    "static/media/PixeledEnglish.ttf": "/goblin-knight/static/media/PixeledEnglish.8a810fea38dae90489f3.ttf",
+    "index.html": "/goblin-knight/index.html",
+    "main.ba1e5b91.css.map": "/goblin-knight/static/css/main.ba1e5b91.css.map",
+    "main.997a3115.js.map": "/goblin-knight/static/js/main.997a3115.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba1e5b91.css",
+    "static/js/main.997a3115.js"
+  ]
+}
