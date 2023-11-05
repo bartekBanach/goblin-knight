@@ -8,7 +8,7 @@
 - Items with effects randomly assigned at the start of each run
 
 ## Demo
-> https://bartekbanach.github.io/pathfinding-goblin-knight
+> https://bartekbanach.github.io/goblin-knight
 
 ## Installation and Setup Instructions
 
